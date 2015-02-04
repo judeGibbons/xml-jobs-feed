@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<title>Coventry University Staff Recruitment RSS feed</title>
+<link rel="stylesheet" type="text/css" href="css/jobsfeed.css">
+<meta name="viewport" content="initial-scale=1.0, width=device-width"> 
+
+<script type="text/javascript" src="http://www.google.com/jsapi?UA-34268544-1">
+</script>
+
+<script type="text/javascript">
+	google.load("feeds", "1"); //load Google Ajax Feed APIv1
+</script>
+
+<script type="text/javascript" src="js/filteredjobsfeed.js"></script>
+
+</head>
+
+<body>
+
+<label for="jobcategory" class="standalonepara">Filter the available jobs by category using the dropdown menu below.</label>
+
+<form>
+<select id="jobcategory" name="jobcategory">
+<option value="alljobs" selected>All jobs</option>
+<option value="academic">Academic jobs</option>
+<option value="hpl">Hourly paid lecturing jobs</option>
+<option value="profservices">Professional, administration and clerical jobs</option>
+<option value="research">Research jobs</option>
+<option value="snrmgt">Senior management and VC's group jobs</option>
+<option value="studentemp">Student employment jobs</option>
+</select>
+</form>
+
+<div id="jobscontainer"></div>
+
+<p class="standalonepara endoffeed">Please see our <a href="https://staffrecruitment.coventry.ac.uk/">Staff Recruitment pages</a> for more vacancies and full details.</p>
+
+</body>
+</html>
